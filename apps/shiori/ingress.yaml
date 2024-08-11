@@ -8,7 +8,7 @@ metadata:
   namespace: shiori
 spec:
   rules:
-    - host: my-shiori.example
+    - host: shiori.local.computer
       http:
         paths:
           - path: /
