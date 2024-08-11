@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   annotations:
     traefik.ingress.kubernetes.io/router.tls: "true"
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
   name: shiori
   namespace: shiori
 spec:
