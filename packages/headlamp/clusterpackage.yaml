@@ -1,0 +1,9 @@
+apiVersion: packages.glasskube.dev/v1alpha1
+kind: ClusterPackage
+metadata:
+  name: headlamp
+spec:
+  packageInfo:
+    name: headlamp
+    repositoryName: glasskube
+    version: v0.25.0+1
